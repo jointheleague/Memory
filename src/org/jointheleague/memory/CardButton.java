@@ -48,7 +48,7 @@ public class CardButton extends JButton {
 		return null;
 	}
 
-	public void setCard(Object object) {
+	public void setCard(Card card) {
 		// TODO Auto-generated method stub
 		
 	}

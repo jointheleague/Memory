@@ -94,11 +94,11 @@ In state:
 
 - __State 0:__ Zero unmatched cards facing up
     - If the user clicks on a card facing up, ignore the click. 
-    - If the user clicks on a card facing down, assign that button to `firstCardButton` and flip it (so it faces up). Go to state 1 (i.e., assign 1 to the variable `state`.
+    - If the user clicks on a card facing down, assign that button to `firstCardButton` and flip it (so it faces up). Go to state 1 (i.e., assign 1 to the variable `state`).
 
 - __State 1:__ One unmatched card facing up
     - If the user clicks on a card facing up, ignore the click. 
-    - If the user clicks on a card facing down, assign that button to `secondCardButton` and flip it (so it faces up). Check if the two buttons match, i.e., have equal cards. If they do, go to state 0 (i.e., assign 0 to the variable `state`. If they don't go to state 2.
+    - If the user clicks on a card facing down, assign that button to `secondCardButton` and flip it (so it faces up). Check if the two buttons match, i.e., have equal cards. If they do, go to state 0. If they don't go to state 2.
 
 - __State 2:__ Two unmatched cards facing up
     - If the user clicks on a card facing up, flip `firstCardButton` and `secondCardButton` (so they both face down), and go to state 0. 
